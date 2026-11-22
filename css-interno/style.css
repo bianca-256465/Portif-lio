@@ -78,3 +78,16 @@ body{
 
 
 }
+
+@media screen and (max-width: 600px) {
+
+    #principal {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #conteudo {
+        width: 100%;
+    }
+
+}
