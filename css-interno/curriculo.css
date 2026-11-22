@@ -46,8 +46,10 @@ body{
 
 @media screen and (max-width: 600px) {
     #principal {
+        width: 100%;
         max-width: 100%;
-        padding: 40px;
+        padding: 15px;
+        box-sizing: border-box;
         height: auto;
     }
 }
