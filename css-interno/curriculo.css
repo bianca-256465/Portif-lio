@@ -46,7 +46,8 @@ body{
 
 @media screen and (max-width: 600px) {
     #principal {
-        width: 100%;
+        width: 80%;
+        padding: 15px;
         height: 100%;
     }
 }
