@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(246, 232, 239);
+    background-color: rgb(253, 253, 253);
+    background: url(../img/fundo.jpg);
     
 }
 
@@ -11,16 +12,19 @@ body{
     width: 80%;
     margin: 40px auto;
     padding: 20px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid black;
+    border: 2px solid rgb(232, 192, 208);
+    border-radius: 5%;
+    background-color: rgb(255, 244, 250);
     
 }
+
 
 #principal form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 244, 250);
+    padding: 20px;
     
     
 }
