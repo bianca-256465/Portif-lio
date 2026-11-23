@@ -1,6 +1,49 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #FDF5E6;
+    background-color: rgb(246, 232, 239);
     
+}
+
+
+#container {
+    max-width: 600px;
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    
+}
+
+#principal form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.formulario input,
+.formulario textarea {
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(232, 31, 108);
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+#envio input{
+    border: 2px solid rgb(232, 31, 108);
 }
