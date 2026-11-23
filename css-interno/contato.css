@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: rgb(253, 253, 253);
     background: url(../img/fundo.jpg);
+    background-size: cover;
     
 }
 
@@ -51,3 +52,4 @@ body{
 #envio input{
     border: 2px solid rgb(232, 31, 108);
 }
+
